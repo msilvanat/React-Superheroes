@@ -24,7 +24,7 @@ export const Navbar = () => {
                 className="navbar-brand text-dark"
                 to="/"
             >
-                Asociaciones
+                associations
             </Link>
 
             <div className="navbar-collapse">

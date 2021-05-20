@@ -3,7 +3,7 @@ import { AuthContext } from './auth/AuthContext';
 import { authReducer } from './auth/authReducer';
 import { AppRouter } from './routers/AppRouter';
 
-// siempre creo el init poeque voy a leer el localstrorage, para ver si tenemos ese objeto (el user)
+// siempre creo el init porque voy a leer el localstrorage, para ver si tenemos ese objeto (el user)
 // si no existe el usuario retorno un objeto que tiene el logged en false 
 const init = () => {
     return JSON.parse(localStorage.getItem('user')) || { logged : false };
